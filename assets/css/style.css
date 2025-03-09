@@ -84,7 +84,7 @@ section {
   text-align: center;
 }
 .heading span {
-  color: #2563eb;
+  color: rgba(17, 157, 164);
 }
 header .logo {
   font-size: 1.9rem;
@@ -117,8 +117,8 @@ header .navbar ul li a {
 }
 header .navbar ul li a.active,
 header .navbar ul li a:hover {
-  color: #2563eb;
-  border-bottom: 0.2rem solid #2563eb;
+  color: rgba(17, 157, 164);
+  border-bottom: 0.2rem solid rgba(17, 157, 164);
   padding: 0.5rem 0;
 }
 /* navbar ends */
@@ -229,7 +229,7 @@ header .navbar ul li a:hover {
 .home .content h2 span {
   font-size: 5rem;
   font-weight: 800;
-  color: #3b82f6;
+  color: rgba(17, 157, 164);
 }
 .home .content p {
   font-size: 2.5rem;
@@ -239,7 +239,7 @@ header .navbar ul li a:hover {
 }
 .home .content p span {
   font-size: 2.5rem;
-  color: #2563eb;
+  color: rgba(17, 157, 164);
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -251,7 +251,7 @@ header .navbar ul li a:hover {
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #1e40af;
+  background: rgba(17, 157, 164);
   box-shadow: 0px 5px 18px rgba(37, 99, 235, 0.4);
   font-family: "Nunito", sans-serif;
 }
@@ -414,7 +414,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.3s;
   color: #fff;
-  background: #2506ad;
+  background: rgba(17, 157, 164);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   font-family: "Nunito", sans-serif;
 }
@@ -429,7 +429,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .resumebtn .btn:hover {
-  background: #1a047e;
+  background: rgba(17, 157, 164);
 }
 .resumebtn .btn:hover i {
   transform: translateX(5px);
@@ -461,17 +461,17 @@ header .navbar ul li a:hover {
 /* skills section starts */
 .skills {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: transparent;
+
 }
 .skills h2 {
-  color: #fff;
+  color: black;
 }
 .skills .heading span {
-  color: rgb(255, 230, 0);
+  color: rgba(17, 157, 164)
 }
 .skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
+  color: hsl(240 3.8% 46.1%);
   border-radius: 1rem;
   padding: 2rem;
   width: 90%;
@@ -489,8 +489,9 @@ header .navbar ul li a:hover {
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  background: rgba(0, 0, 22, 0.9);
   transition: 0.2s;
+  background: #fff;
+  border: 3px solid rgba(0, 0, 0, 0.9);
 }
 .skills .container .bar:hover {
   box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
@@ -534,8 +535,8 @@ header .navbar ul li a:hover {
 
 /* education section starts */
 .education {
-  background: #e5ecfb;
-  min-height: 80vh;
+  background: #fff;
+  min-height: 50vh;
 }
 .education .qoute {
   font-size: 1.5rem;
@@ -642,14 +643,14 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background: #fff;
 }
 .work h2 {
-  color: #fff;
+  color: black;
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: rgba(17, 157, 164)
 }
 .work .box-container {
   display: flex;
@@ -660,8 +661,9 @@ header .navbar ul li a:hover {
 .work .box-container .box {
   flex: 1 1 30rem;
   border-radius: 0.5rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  position: relative;
+  box-shadow: 0 10px 20px -3px rgba(0, 0, 0, 0.12), 0 4px 8px -2px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.2s ease-in-out;
+    position: relative;
   overflow: hidden;
   height: 30rem;
 }
@@ -688,10 +690,11 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: black;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
+  color: #fff;
 }
 .work .box-container .box:hover .content {
   top: 25%;
@@ -734,11 +737,11 @@ header .navbar ul li a:hover {
   padding: 1.6rem 3rem;
   border-radius: 0.5em;
   transition: 0.5s;
-  color: rgb(255, 255, 255);
+  color: white;
   font-weight: 700;
-  border: 2px solid #fff;
   box-shadow: 0px 5px 10px rgba(65, 84, 241, 0.4);
   text-align: center;
+  background: rgba(17, 157, 164);
 }
 .work .viewall .btn span {
   font-weight: 600;
@@ -751,8 +754,8 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .work .viewall .btn:hover {
-  background: #fff;
-  color: #000;
+  background: #1e293b;
+  color: white;
 }
 .work .viewall .btn:hover i {
   transform: translateX(5px);
@@ -868,7 +871,7 @@ header .navbar ul li a:hover {
   border-radius: 0.5em;
   transition: 0.5s;
   color: #fff;
-  background: #2506ad;
+  background: rgba(17, 157, 164);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   text-align: center;
 }
@@ -883,7 +886,7 @@ header .navbar ul li a:hover {
   transition: 0.3s;
 }
 .morebtn .btn:hover {
-  background: #1a047e;
+  background: rgba(17, 157, 164);
 }
 .morebtn .btn:hover i {
   transform: translateX(5px);
@@ -1041,7 +1044,7 @@ form .button-area {
   cursor: pointer;
   border-radius: 5px;
   padding: 13px 25px;
-  background: #2506ad;
+  background: rgba(17, 157, 164);
   box-shadow: 0px 5px 10px rgba(48, 68, 247, 0.6);
   transition: 0.3s ease;
   font-family: "Nunito", sans-serif;
@@ -1091,7 +1094,7 @@ form .button-area {
 .footer {
   min-height: auto;
   padding-top: 0;
-  background: rgb(0, 1, 43);
+  background: rgba(17, 157, 164)
 }
 .footer .box-container {
   display: flex;

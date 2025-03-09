@@ -84,7 +84,7 @@ async function fetchData(type = "skills") {
     type === "skills" ?
         response = await fetch("skills.json")
         :
-        response = await fetch("./projects/projects.json")
+        response = await fetch("projects.json")
     const data = await response.json();
     return data;
 }
@@ -107,7 +107,7 @@ function showSkills(skills) {
 function showProjects(projects) {
     let projectsContainer = document.querySelector("#work .box-container");
     let projectHTML = "";
-    projects.slice(0, 10).filter(project => project.category != "android").forEach(project => {
+    projects.slice(0, 6).forEach(project => {
         projectHTML += `
         <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
@@ -146,6 +146,14 @@ function showProjects(projects) {
 
 }
 
+
+function getProjects() {
+    return fetch("projects.json")
+        .then(response => response.json())
+        .then(data => {
+            return data
+        });
+}
 fetchData().then(data => {
     showSkills(data);
 });
@@ -172,6 +180,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // pre loader end
 
 // disable developer mode
+/*
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
@@ -189,17 +198,18 @@ document.onkeydown = function (e) {
         return false;
     }
 }
+*/
 
 // Start of Tawk.to Live Chat
-var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-(function () {
-    var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-    s1.async = true;
-    s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
-    s1.charset = 'UTF-8';
-    s1.setAttribute('crossorigin', '*');
-    s0.parentNode.insertBefore(s1, s0);
-})();
+// var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+// (function () {
+//     var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+//     s1.async = true;
+//     s1.src = 'https://embed.tawk.to/60df10bf7f4b000ac03ab6a8/1f9jlirg6';
+//     s1.charset = 'UTF-8';
+//     s1.setAttribute('crossorigin', '*');
+//     s0.parentNode.insertBefore(s1, s0);
+// })();
 // End of Tawk.to Live Chat
 
 
