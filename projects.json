@@ -1,18 +1,18 @@
 [
   {
     "name": "Multi Vendors E-Commerce",
-    "desc": "Fully fledged android CRUD app based on different design patterns. Built using Java, XML, SQLite, Firebase, RoomDB, MVVM.",
-    "image": "notystackandroid",
+    "desc": "The website is built with the concept of a multi-vendors e-commerce platform. Primiarly using ReactJS, NodeJS, MongoDB, Socket.io, and Tailwind.",
+    "image": "ecommerce",
     "category": "web",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/notystack-android"
+      "view": "e-commerce-vendors.vercel.app/",
+      "code": "https://github.com/nphnamm/E-commerce-UI"
     }
   },
   {
     "name": "E-learning Website",
-    "desc": "All in one SPPU Engineering resources. Built using Java, XML and Firebase.",
-    "image": "sppuprepandroid",
+    "desc": ".",
+    "image": "ecommerce",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
@@ -22,7 +22,7 @@
   {
     "name": "The movie Website",
     "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
+    "image": "ecommerce",
     "category": "android",
     "links": {
       "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
@@ -42,7 +42,7 @@
   {
     "name": "Duolingo Clone",
     "desc": "Full-Stack Instagram clone built using MERN stack and realtime chat with the help of socket.iO",
-    "image": "instagrammern",
+    "image": "ecommerce",
     "category": "mern",
     "links": {
       "view": "https://instagramernstack.herokuapp.com/",
@@ -52,7 +52,7 @@
   {
     "name": "Job Board Website",
     "desc": "Full-Stack Flipkart with Admin Dashboard and Paytm Payment Gateway. MERN Stack WebApp, ready to use for business.",
-    "image": "flipkartmern",
+    "image": "ecommerce",
     "category": "mern",
     "links": {
       "view": "https://flipkartwebs.herokuapp.com/",
